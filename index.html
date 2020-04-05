@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>QMetry Automation Studio Reporter</title>
+    <link type="image/png" rel="shortcut icon" href="./dashboard/images/favicon.png">
+    <link href="./dashboard/css/style.css" rel="stylesheet" onerror='document.write("Required <a href=\"https://github.com/infostretch/qaf-report#qaf-report\">dashboard.</a>"); window.stop();' />
+    <link rel="stylesheet" href="./dashboard/jquery/jqplot/jquery.jqplot.min.css" />
+    <link rel="stylesheet" href="./dashboard/jquery/ui/css/smoothness/jquery-ui-1.9.0.custom.min.css" />
+    <link rel="stylesheet" href="./dashboard/jquery/layout/layout-default-latest.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./dashboard/jquery/jqplot/examples.min.css" /> -->
+    <link type="text/css" rel="stylesheet" href="./dashboard/jquery/jqplot/syntaxhighlighter/styles/shCoreDefault.min.css" />
+    <link type="text/css" rel="stylesheet" href="./dashboard/jquery/jqplot/syntaxhighlighter/styles/shThemejqPlot.min.css" />
+    <link href="./dashboard/css/stylesheet_master.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./dashboard/css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <link href="./dashboard/css/prettify.css"  rel="stylesheet" />
+
+    <script src="./dashboard/jquery/jquery-1.8.2.min.js"></script>
+    <script src="./dashboard/jquery/jquery.tinysort.min.js"></script>
+ 	<script src="./dashboard/jquery/jquery.timer.js"></script>
+    <script src="./dashboard/jquery/ui/jquery-ui-1.9.0.custom.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/tmpl/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/tmpl/jquery.tmplPlus.min.js"></script>
+    <script src="./dashboard/jquery/layout/jquery.layout-latest.min.js"></script>
+    <script src="./dashboard/jquery/jqplot/jquery.jqplot.min.js"></script>
+    <script src="./dashboard/jquery/jqplot/plugins/jqplot.pieRenderer.min.js"></script>
+    <script src="./dashboard/jquery/jqplot/plugins/jqplot.donutRenderer.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/plugins/jqplot.barRenderer.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/plugins/jqplot.enhancedLegendRenderer.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/plugins/jqplot.cursor.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/plugins/jqplot.canvasTextRenderer.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/plugins/jqplot.highlighter.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/syntaxhighlighter/scripts/shCore.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
+    <script type="text/javascript" src="./dashboard/jquery/jqplot/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
+    <style>
+        .dashboardTileContainer {
+            width: 1000px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-column-gap: 25px;
+            padding: 10px;
+            font-family: 'Lucida Sans';
+            font-weight: normal;
+            font-size: medium;
+        }
+        .dashboardTile {
+            height: 75px;
+            padding: 2px;
+            margin: 20px;
+            border-width: 2px;
+            border-color: aqua;
+            background-color:rgb(167, 212, 181);
+            text-align: center;
+        } 
+        .details2 {
+            height: 25px;
+            padding-top: 10px;
+        }
+    </style>
+    <script src="dashboard/jquery/index.js"></script>
+   
+    <!-- <script src="./dashboard/jquery/jqueryFileTree/jquery.easing.js"></script> -->
+    <script src="./dashboard/jquery/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./dashboard/jquery/prettify.js"></script>
+    <script src="./dashboard/jquery/vkbeautify.0.99.00.beta.js"></script>
+</head>
+<body>
+    <div class="ui-layout-north ">
+        <div class="logo_area">
+<!-- 		<object data="./dashboard/images/logo_qaf_icon.svg" width="180px" -->
+<!-- 		 height="56px" type="image/svg+xml"> -->
+<!-- 		 	<img src="./dashboard/images/logo_qaf_aicon.png" /> -->
+<!-- 		</object> -->
+		<img src="./dashboard/images/logo_qaf_icon.svg" alt="QAF Logo" onerror="this.src='./dashboard/images/logo.png'">
+	    </div>
+        <div class="my_logo_area">
+            <img src="./dashboard/images/app-logo.png" height="60px" onerror="this.height='0px'">
+        </div>
+    </div>
+    <div class="ui-layout-center content" style="margin-left: 1px;">
+        <div class="main_cont ui-layout-center">
+            <div class="dashboardTileContainer" id="dashboardTileContainer">
+
+            </div>
+        </div>
+    </div>
+    <div class="ui-layout-west">
+        <div id="reportlist_scroll" class="ui-layout-content" style="border-left:1px solid #fff;">
+            <ul id="reportlist"></ul>
+        </div>
+    </div>
+</body>  
+</html>  
