@@ -1,0 +1,44 @@
+{"dashboards": [
+	{
+	"group" : "BTCA",
+	"subgroup": "Fixed Income",
+	"project" : "JIRA 2371",
+	"environment" : "DEV1",
+	"dir": "data/Group1"
+	},
+	{
+	"group" : "BTCA",
+	"subgroup": "Fixed Income",
+	"project" : "JIRA 2371",
+	"environment" : "SIT2",
+	"dir": "data/Group1"
+	},
+	{
+	"group" : "BTCA",
+	"subgroup": "Fixed Income",
+	"project" : "JIRA 2372",
+	"environment" : "DEV2",
+	"dir": "data/Group1"
+	},
+	{
+	"group" : "BTCA",
+	"subgroup": "Fixed Income",
+	"project" : "JIRA 2372",
+	"environment" : "SIT2",
+	"dir": "data/Group1"
+	},
+	{
+	"group" : "RTS27",
+	"subgroup": "Calypso",
+	"project" : "JIRA 345",
+	"environment" : "UAT1",
+	"dir": "data/Group2/Project1"
+	},{
+	"group" : "MIFID2",
+	"subgroup": "Forex",
+	"project" : "March Release",
+	"environment" : "SIT2",
+	"dir": "data/Group2/Project2"
+	}
+	] 
+}
