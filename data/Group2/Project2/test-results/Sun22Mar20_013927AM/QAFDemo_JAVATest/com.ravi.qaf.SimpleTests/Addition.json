@@ -1,0 +1,21 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "addition of 2 & 3",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "It would be shame to fail this\nExpected: &lt;5&gt;\n     Actual: was &lt;5&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

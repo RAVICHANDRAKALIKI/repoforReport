@@ -1,0 +1,28 @@
+{
+  "reports": [
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Sun22Mar20_013927AM",
+      "startTime": 1584821367594
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Sun22Mar20_013304AM",
+      "startTime": 1584820984452
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Sun22Mar20_011935AM",
+      "startTime": 1584820175877
+    },
+    {
+      "name": "QAF Demo (0)",
+      "dir": "test-results/Sun22Mar20_011745AM",
+      "startTime": 1584820065613
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Sun22Mar20_011358AM",
+      "startTime": 1584819838032
+    }  ]
+}

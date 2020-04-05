@@ -1,0 +1,31 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.ravi.qaf.SimpleTests"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "15",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Nov-2019 22:28:06"
+    },
+    "run-parameters": {},
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_241",
+      "os.arch": "amd64",
+      "host": "LAPTOP-QP17ML9K",
+      "os.name": "Windows 10",
+      "user.name": "kravi",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1584820065659,
+  "endTime": 1584820065715
+}

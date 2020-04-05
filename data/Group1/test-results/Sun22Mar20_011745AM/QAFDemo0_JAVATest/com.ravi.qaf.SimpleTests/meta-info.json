@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "addition",
+        "resultFileName": "Addition",
+        "sign": "SimpleTests.addition()[pri:0, instance:com.ravi.qaf.SimpleTests@4fcd19b3]"
+      },
+      "dependsOn": [],
+      "startTime": 1584820065739,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
